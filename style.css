@@ -4391,6 +4391,13 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-top: 30px;
   padding-top: 30px;
 }
+.div-text-footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.div-text-footer p {
+  color: #fff;
+}
 .contact-section .contact-btn-wrap h3 {
   color: #ffffff;
 }
