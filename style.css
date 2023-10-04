@@ -9027,4 +9027,26 @@ product checkout css
   justify-content: center;
 }
 
+.oferta-img > .imagem-grande {
+}
+
+.imagem-grande {
+  display: none;
+  max-width: 800px;
+}
+
+.imagem-pequena {
+  max-width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .imagem-pequena {
+    display: none;
+  }
+
+  .imagem-grande {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
