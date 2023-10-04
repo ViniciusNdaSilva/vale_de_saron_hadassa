@@ -8982,7 +8982,7 @@ product checkout css
 /* #25d366 */
 
 .whatsapp-button {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   display: inline-block;
@@ -9004,6 +9004,27 @@ product checkout css
   100% {
     transform: translateY(0);
   }
+}
+
+@media (max-width: 768px) {
+  .whatsapp-button {
+    bottom: 10px;
+    right: 10px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-button {
+    bottom: 5px;
+    right: 5px;
+    padding: 6px;
+  }
+}
+
+.oferta-img {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
