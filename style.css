@@ -8971,4 +8971,39 @@ product checkout css
   }
 }
 
+.botao-whats {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* #25d366 */
+
+.whatsapp-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  background-color: #25d36500;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  animation: floatAnimation 3s ease infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
