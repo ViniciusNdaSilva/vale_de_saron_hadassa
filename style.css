@@ -9039,7 +9039,7 @@ product checkout css
   max-width: 250px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .imagem-pequena {
     display: none;
   }
@@ -9047,6 +9047,6 @@ product checkout css
   .imagem-grande {
     display: block;
   }
-}
+} /*
 
 /*# sourceMappingURL=style.css.map */
