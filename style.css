@@ -9025,19 +9025,28 @@ product checkout css
 .oferta-img {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
-.oferta-img > .imagem-grande {
+.imagem-um,
+.imagem-dois {
+  height: auto;
+  width: 430px;
+  margin: 30px;
 }
 
-.imagem-grande {
-  display: none;
-  max-width: 800px;
-}
+@media screen and (max-width: 768px) {
+  .oferta-img {
+    flex-direction: column;
+  }
 
-.imagem-pequena {
-  max-width: 250px;
-}
+  .imagem-um,
+  .imagem-dois {
+    width: 230px;
+    margin: 30px;
+  }
+} /*
 
 /* @media screen and (min-width: 768px) {
   .imagem-pequena {
