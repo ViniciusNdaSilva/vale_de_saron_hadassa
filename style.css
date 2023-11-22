@@ -9032,8 +9032,8 @@ product checkout css
 .imagem-um,
 .imagem-dois {
   height: auto;
-  width: 430px;
-  margin: 30px;
+  width: 250px;
+  margin: 25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -9043,8 +9043,8 @@ product checkout css
 
   .imagem-um,
   .imagem-dois {
-    width: 230px;
-    margin: 30px;
+    width: 250px;
+    margin: 20px;
   }
 } /*
 
