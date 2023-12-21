@@ -9032,7 +9032,7 @@ product checkout css
 .imagem-um,
 .imagem-dois {
   height: auto;
-  width: 250px;
+  width: 550px;
   margin: 25px;
 }
 
@@ -9043,7 +9043,7 @@ product checkout css
 
   .imagem-um,
   .imagem-dois {
-    width: 250px;
+    width: 350px;
     margin: 20px;
   }
 } /*
